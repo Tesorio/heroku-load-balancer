@@ -19,7 +19,7 @@ http <
     absolute_redirect off;
     port_in_redirect off;
     
-    client_max_body_size 0; 0;
+    client_max_body_size 0;
 
     server <
         listen {port};
