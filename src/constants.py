@@ -18,11 +18,11 @@ http <
 
     absolute_redirect off;
     port_in_redirect off;
+    
+    client_max_body_size 0; 0;
 
     server <
         listen {port};
-        
-        client_max_body_size 0;
 
         location / <
             proxy_pass http://main;
